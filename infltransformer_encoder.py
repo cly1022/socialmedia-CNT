@@ -1,12 +1,4 @@
-'''
-Descripttion: 
-version: 
-@School: 兰州理工大学
-Author: 瞿继焘
-Date: 2023-07-19 09:42:04
-LastEditors: 瞿继焘
-LastEditTime: 2024-04-19 20:09:14
-'''
+
 import torch 
 import torch.nn as nn
 from infltransformer_encoder_layer import InflTransformerEncoderLayer
