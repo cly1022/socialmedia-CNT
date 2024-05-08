@@ -1,12 +1,4 @@
-'''
-Descripttion: 
-version: 
-@School: 兰州理工大学
-Author: 瞿继焘
-Date: 2023-07-16 10:48:19
-LastEditors: 瞿继焘
-LastEditTime: 2024-04-20 08:54:48
-'''
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
