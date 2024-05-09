@@ -2,14 +2,16 @@
 
 Identifying Influential Nodes In Complex Networks via Transformer
 
-##Abstract
+#Abstract
+
 In the domain of complex networks, the identification of influential nodes plays a crucial role in ensuring network stability and facilitating efficient information dissemination.
 Although the study of influential nodes has been applied in many fields such as suppression of rumor spreading, regulation of group behavior, and prediction of mass events evolution, current deep learning-based algorithms have limited input features and are incapable of aggregating neighbor information of nodes, thus failing to adapt to complex networks.We propose an influential node identification method in complex networks based on the Transformer.
 In this method, the input sequence of a node includes information about the node itself and its neighbors, enabling the model to effectively aggregate node information to identify its influence. Experiments were conducted on 9 synthetic networks and 12 real networks.
 Using the SIR model and a benchmark method to verify the effectiveness of our approach.The experimental results show that this method can more effectively identify influential nodes in complex networks.
 In particular, the method improves 27 percent compared to the second place method in network Netscience and 21 percent in network Faa.
 
-##contributions
+#contributions
+
 This paper brings several noteworthy contributions to the research field, which can be summarized as follows:
 
 (1) In this paper, the Transformer model is introduced into the complex network to convert the node influence identification task into a regression task.
@@ -22,15 +24,18 @@ This paper brings several noteworthy contributions to the research field, which 
 
 (5) The CNT model outperforms seven benchmark methods in identifying node influence across 9 synthetic and 12 real-world networks with various infection probabilities.
 
-##datesets
+#datesets
+
 This repository includes the dataset introduced by the following paper: Adjnoun, Facebook, Netscience, Jazz, Lesmis, Hamster, Moreno, Plobooks, USAir PowerGrid etc.
 URL:[https://networkrepository.com/index.php]
 
-##Model
+#Model
+
 ![model](https://github.com/cly1022/socialmedia-CNT/assets/17700771/f99bb531-45e0-47aa-8179-cd04a49ea056)
 
 
-##Environment
+#Environment
+
 Windows Server 2022 Standard
 
 12th generation Intel(R) Core(TM) i9-12900K   3.2GHz
