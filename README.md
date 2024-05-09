@@ -18,6 +18,7 @@ This repository includes the dataset introduced by the following paper: Adjnoun,
 Model：
 ![model](https://github.com/cly1022/socialmedia-CNT/assets/17700771/f99bb531-45e0-47aa-8179-cd04a49ea056)
 
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 -c pytorch
 
 Windows Server 2022 Standard
 
@@ -28,6 +29,5 @@ Windows Server 2022 Standard
 NVIDIA RTX A6000
 
 Python 3.7.6
-
 
 If you have any questions about the paper and repository, feel free to contact Leiyang Chen (cly_edu@whu.edu.cn) or open an issue!
